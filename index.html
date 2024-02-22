@@ -76,17 +76,66 @@
                       </div>
                     </div>
                 </div>
-                <!--rombus shape-->
+                <!--Rhombus shape-->
                 <div class="card w-96 bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                    <div class="card-body">
-                      <h2 class="card-title">Shoes!</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
-                      </div>
+                  <figure><img src="images/rhombus.png" alt="parallelogram" /></figure>
+                  <div class="card-body">
+                    <h2 class="card-title text-center">Rhombus</h2>
+                    <p class="text-center text-3xl">Area (A) = 0.5 x d <sub>1</sub> x d <sub>2</sub></p>
+                    <div>
+                      <input type="text" name="" id="Rhombus-fstd" class="w-24 text-2xl p-4 rounded-sm"  placeholder="d1">
+                      <span class="mr-4 ml-2">cm</span>
+                      <input type="text" name="" id="Rhombus-secd" class="w-24 text-2xl p-4 rounded-sm"  placeholder="d2">
+                      <span class="mr-4 ml-2">cm</span>
                     </div>
+                    <div>
+                      <p class="text-2xl">Area : <span class="Rhombus-area">0</span><span>cm <sup>2</sup></span></p>
+                    </div>
+                    <div class="card-actions ">
+                      <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">Calculate</button>
+                    </div>
+                  </div>
+              </div>
+              <!-- Pentagon shape-->
+              <div class="card w-96 bg-base-100 shadow-xl">
+                <figure><img src="images/rhombus.png" alt="parallelogram" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title text-center">Rhombus</h2>
+                  <p class="text-center text-3xl">Area (A) = 0.5 x d <sub>1</sub> x d <sub>2</sub></p>
+                  <div>
+                    <input type="text" name="" id="Rhombus-fstd" class="w-24 text-2xl p-4 rounded-sm"  placeholder="d1">
+                    <span class="mr-4 ml-2">cm</span>
+                    <input type="text" name="" id="Rhombus-secd" class="w-24 text-2xl p-4 rounded-sm"  placeholder="d2">
+                    <span class="mr-4 ml-2">cm</span>
+                  </div>
+                  <div>
+                    <p class="text-2xl">Area : <span class="Rhombus-area">0</span><span>cm <sup>2</sup></span></p>
+                  </div>
+                  <div class="card-actions ">
+                    <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">Calculate</button>
+                  </div>
                 </div>
+            </div>
+             <!-- Pentagon shape-->
+             <div class="card w-96 bg-base-100 shadow-xl">
+              <figure><img src="images/rhombus.png" alt="parallelogram" /></figure>
+              <div class="card-body">
+                <h2 class="card-title text-center">Rhombus</h2>
+                <p class="text-center text-3xl">Area (A) = 0.5 x d <sub>1</sub> x d <sub>2</sub></p>
+                <div>
+                  <input type="text" name="" id="Rhombus-fstd" class="w-24 text-2xl p-4 rounded-sm"  placeholder="d1">
+                  <span class="mr-4 ml-2">cm</span>
+                  <input type="text" name="" id="Rhombus-secd" class="w-24 text-2xl p-4 rounded-sm"  placeholder="d2">
+                  <span class="mr-4 ml-2">cm</span>
+                </div>
+                <div>
+                  <p class="text-2xl">Area : <span class="Rhombus-area">0</span><span>cm <sup>2</sup></span></p>
+                </div>
+                <div class="card-actions ">
+                  <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">Calculate</button>
+                </div>
+              </div>
+          </div>
             </div>
             <!-- area calculator container-->
             <div class="w-93 border-2 border-gray-700 rounded-md">
@@ -97,5 +146,6 @@
     <script src="script/triangleCalculate.js"></script>
     <script src="script/rectangleCalculator.js"></script>
     <script src="script/ParallelogramCalculator.js"></script>
+    <script src="script/rhombusCalculator.js"></script>
 </body>
 </html>
