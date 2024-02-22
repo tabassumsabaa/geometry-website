@@ -98,41 +98,41 @@
               </div>
               <!-- Pentagon shape-->
               <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="images/rhombus.png" alt="parallelogram" /></figure>
+                <figure><img src="images/pentagon.png" alt="Pentagon" /></figure>
                 <div class="card-body">
-                  <h2 class="card-title text-center">Rhombus</h2>
-                  <p class="text-center text-3xl">Area (A) = 0.5 x d <sub>1</sub> x d <sub>2</sub></p>
-                  <div>
-                    <input type="text" name="" id="Rhombus-fstd" class="w-24 text-2xl p-4 rounded-sm"  placeholder="d1">
+                  <h2 class="card-title text-center">Pentagon</h2>
+                  <p class="text-center text-3xl">Area (A) = 0.5 x p x a</p>
+                  <div class="flex gap-5">
+                    <input type="text" name="" id="Pentagon-perimeter" class="w-24 text-2xl p-4 rounded-sm"  placeholder="p">
                     <span class="mr-4 ml-2">cm</span>
-                    <input type="text" name="" id="Rhombus-secd" class="w-24 text-2xl p-4 rounded-sm"  placeholder="d2">
+                    <input type="text" name="" id="Pentagon-apotheme" class="w-24 text-2xl p-4 rounded-sm"  placeholder="a">
                     <span class="mr-4 ml-2">cm</span>
                   </div>
                   <div>
-                    <p class="text-2xl">Area : <span class="Rhombus-area">0</span><span>cm <sup>2</sup></span></p>
+                    <p class="text-2xl">Area : <span class="Pentagon-area">0</span><span>cm <sup>2</sup></span></p>
                   </div>
                   <div class="card-actions ">
-                    <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">Calculate</button>
+                    <button onclick=" calculatePantagonArea()" class="btn btn-primary w-full">Calculate</button>
                   </div>
                 </div>
             </div>
-             <!-- Pentagon shape-->
+             <!-- Ellipse shape-->
              <div class="card w-96 bg-base-100 shadow-xl">
-              <figure><img src="images/rhombus.png" alt="parallelogram" /></figure>
+              <figure><img src="images/ellipse.png" alt="Ellipse" /></figure>
               <div class="card-body">
-                <h2 class="card-title text-center">Rhombus</h2>
-                <p class="text-center text-3xl">Area (A) = 0.5 x d <sub>1</sub> x d <sub>2</sub></p>
+                <h2 class="card-title text-center">Ellipse</h2>
+                <p class="text-center text-3xl">Area (A) = π x a x b </p>
                 <div>
-                  <input type="text" name="" id="Rhombus-fstd" class="w-24 text-2xl p-4 rounded-sm"  placeholder="d1">
+                  <input type="text" name="" id="Ellipse-major-radius" class="w-24 text-2xl p-4 rounded-sm"  placeholder="major">
                   <span class="mr-4 ml-2">cm</span>
-                  <input type="text" name="" id="Rhombus-secd" class="w-24 text-2xl p-4 rounded-sm"  placeholder="d2">
+                  <input type="text" name="" id="Ellipse-minor-radius" class="w-24 text-2xl p-4 rounded-sm"  placeholder="minor">
                   <span class="mr-4 ml-2">cm</span>
                 </div>
                 <div>
-                  <p class="text-2xl">Area : <span class="Rhombus-area">0</span><span>cm <sup>2</sup></span></p>
+                  <p class="text-2xl">Area : <span class="Ellipse-area">0</span><span>cm <sup>2</sup></span></p>
                 </div>
                 <div class="card-actions ">
-                  <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">Calculate</button>
+                  <button onclick="calculateEllipseArea()" class="btn btn-primary w-full">Calculate</button>
                 </div>
               </div>
           </div>
@@ -147,5 +147,7 @@
     <script src="script/rectangleCalculator.js"></script>
     <script src="script/ParallelogramCalculator.js"></script>
     <script src="script/rhombusCalculator.js"></script>
+    <script src="script/pentagonCalculator.js"></script>
+    <script src="script/ellipseCalculator.js"></script>
 </body>
 </html>
